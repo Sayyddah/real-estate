@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import datetime as dt
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import GammaRegressor as gmreg
-import statsmodels.api as sm   
+#from sklearn.model_selection import train_test_split
+#from sklearn.linear_model import GammaRegressor as gmreg
+#import statsmodels.api as sm   
 
 #read in csv dataset
 real_est_zip = pd.read_csv("RDC_Inventory_Core_Metrics_Zip_History.csv", low_memory = False)
